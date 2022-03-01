@@ -2,9 +2,40 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;   
+    text-decoration: none;
+}
+
+
+li {
+    display: inline;
+    list-style-type: none;
 }
 
 body {
     font-size: 100%;
+    background-color: #4C9E5A;
+    color: #D8D2E1;
+}
+
+.header {
+    background-color: #388044;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#imgheader {
+    border-radius: 50%;
+    width: 55px;
+    margin: 5px 100px 5px 20px;
+}
+
+.nav {
+    font-family: sans-serif;
+    justify-content: end;
+    text-transform: uppercase;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.2em;
+    font-weight: 1000;
 }
