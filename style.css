@@ -7,12 +7,13 @@
 
 body {
     font-size: 100%;
-    background-color: #2d3d30;
+    background-color: #182516d7;
     color: #D8D2E1;
 }
 /*------------------ CABEÇALHO ------------------*/
 .header {
-    background-color: #031300;
+    /* background-color: #031300; */
+    background-color: rgba(0, 0, 0, 0.315);
     position: fixed;
     display: flex;
     flex-direction: row;
@@ -122,4 +123,26 @@ a:link, a:visited {
 
 .section-item {
     font-style: italic;
+}
+
+/* FOOTER (rodapé) */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 3px;
+    border-radius: 4% 4% 0 0;
+    background-color: rgba(0, 0, 0, 0.411);
+    color: white;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    display:inline-flex;
+    justify-content: space-evenly;
+}
+
+.div-insta {
+    margin-left: 200px;
 }
