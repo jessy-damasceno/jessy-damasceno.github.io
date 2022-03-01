@@ -41,7 +41,6 @@ body {
 
 .menu-item {
     align-items: baseline;
-    text-shadow: 2px 2px;
 }
 
 a:link, a:visited {
@@ -55,3 +54,46 @@ a:link, a:visited {
   a:hover, a:active {
     background-color: #010500a6;
   }
+
+/*------------------ MAIN ------------------*/
+.conteudo {
+    margin-bottom: 50px;
+}
+
+.conteudo-principal1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#content-img {
+    border-radius: 50% 50%;
+    margin-top: 130px;
+    margin-bottom: 62px;
+    box-shadow: 0.2px 0.2px 6px #010500a6;
+}
+
+.conteudo-principal2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+}
+
+.conteudo-principal2-title {
+    font-family: sans-serif;
+    font-size: 3em;
+    font-weight: 150;
+    letter-spacing: 0.4em;
+    text-shadow: 3px 3px 7px #020a00;
+    
+}
+
+.conteudo-principal2-subtitle {
+    font-family: sans-serif;
+    font-size: 1.3em;
+    letter-spacing: 0.1em;
+    margin-top: 19px;
+    text-shadow: 3px 3px 7px #020a00;   
+}
