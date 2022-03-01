@@ -5,37 +5,40 @@
     text-decoration: none;
 }
 
-
-li {
-    display: inline;
-    list-style-type: none;
-}
-
 body {
     font-size: 100%;
-    background-color: #4C9E5A;
+    background-color: #2d3d30;
     color: #D8D2E1;
 }
 
 .header {
-    background-color: #388044;
+    background-color: #031300ec;
+    position: fixed;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
+    float: none;
+    z-index: 10;
+    width: 100%;
 }
 
 #imgheader {
     border-radius: 50%;
     width: 55px;
-    margin: 5px 100px 5px 20px;
+    margin: 5px 50px 5px 2px;
+    background-color: black;
 }
 
-.nav {
+.menu {
+    display: flex;
     font-family: sans-serif;
-    justify-content: end;
-    text-transform: uppercase;
-    align-items: center;
-    flex-direction: column;
     font-size: 1.2em;
-    font-weight: 1000;
+    font-weight: 600;
+    gap: 230px;
+    align-items: center;
+}
+
+.menu-item {
+    align-items: center;
 }
