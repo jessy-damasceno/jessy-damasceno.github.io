@@ -105,22 +105,6 @@ span {
 }
 
 @media screen and (max-width: 768px) {
-  body {
-    background-color: rgb(209, 142, 17) !important;
-  }
-
-  header {
-    position: relative;
-    align-self: center;
-    left: auto;
-  }
-
-  #conteudo-principal {
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 600px) {
   #conteudo-principal {
     flex-direction: column;
     width: 95vw;
