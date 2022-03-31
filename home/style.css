@@ -131,4 +131,39 @@ span {
   #conteudo-principal {
     flex-direction: column;
   }
+
+  header {
+    position: absolute;
+    top: 0;
+    left: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  /* body {
+    justify-content: space-between;
+  }
+
+  #conteudo-principal {
+    flex-direction: column;
+  }
+
+  h1 {
+    display: none;
+  }
+
+  header {
+    justify-content: center;
+    position: relative;
+    left: auto;
+  } */
+  #conteudo-principal {
+    flex-direction: column;
+    width: 95vw;
+    height: fit-content;
+    background: none;
+  }
+  h1 {
+    display: none;
+  }
 }

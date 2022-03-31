@@ -7,7 +7,7 @@ const spanGit = document.getElementById('span-git');
 const spanProfile = document.getElementById('span-profile');
 const spanLink = document.getElementById('span-linkedin');
 const spans = document.getElementsByTagName('span');
-console.log(spans);
+
 
 function homeColor() {
   document.body.style.backgroundColor = 'rgb(229, 169, 54)';
@@ -46,15 +46,19 @@ function wow() {
          ||     ||                `);
 }
 
-home.addEventListener('mouseover', homeColor);
-home.addEventListener('click', wow)
-home.addEventListener('mouseout', retornaCor);
+var x = window.matchMedia("(max-width: 700px)")
 
-git.addEventListener('mouseover', gitColor);
-git.addEventListener('mouseout', retornaCor);
-
-profile.addEventListener('mouseover', profileColor);
-profile.addEventListener('mouseout', retornaCor);
-
-linkedin.addEventListener('mouseover', linkedinColor);
-linkedin.addEventListener('mouseout', retornaCor);
+if (x.matches) {
+  home.addEventListener('mouseover', homeColor);
+  home.addEventListener('click', wow)
+  home.addEventListener('mouseout', retornaCor);
+  
+  git.addEventListener('mouseover', gitColor);
+  git.addEventListener('mouseout', retornaCor);
+  
+  profile.addEventListener('mouseover', profileColor);
+  profile.addEventListener('mouseout', retornaCor);
+  
+  linkedin.addEventListener('mouseover', linkedinColor);
+  linkedin.addEventListener('mouseout', retornaCor);
+}
