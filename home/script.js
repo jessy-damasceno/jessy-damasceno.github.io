@@ -37,7 +37,17 @@ function retornaCor() {
   }
 }
 
+function wow() {
+  console.log(`
+
+  \  (oo)\_______
+     (__)\       )\/\
+         ||----w |
+         ||     ||                `);
+}
+
 home.addEventListener('mouseover', homeColor);
+home.addEventListener('click', wow)
 home.addEventListener('mouseout', retornaCor);
 
 git.addEventListener('mouseover', gitColor);

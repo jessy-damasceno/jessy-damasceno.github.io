@@ -103,3 +103,40 @@ span {
   background-color: rgba(8, 120, 172, 0.2);
   transition: 0.2s all ease-out;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: rgb(209, 142, 17) !important;
+  }
+
+  header {
+    position: relative;
+    align-self: center;
+    left: auto;
+  }
+
+  #conteudo-principal {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #conteudo-principal {
+    flex-direction: column;
+    width: 95vw;
+    height: fit-content;
+    background: none;
+  }
+
+  h1 {
+    display: none;
+  }
+
+  #home a {
+    color: rgb(22, 22, 22);
+  }
+
+  i {
+    font-size: 50px;
+  }
+}
