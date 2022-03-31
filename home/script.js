@@ -8,7 +8,7 @@ const spanProfile = document.getElementById("span-profile");
 const spanLink = document.getElementById("span-linkedin");
 const spans = document.getElementsByTagName("span");
 
-var x = window.matchMedia("(min-width: 700px)");
+var x = window.matchMedia("(min-width: 768px)");
 
 function homeColor() {
   if (x.matches) {
