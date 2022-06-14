@@ -39,9 +39,9 @@ function linkedinColor() {
 }
 
 function retornaCor() {
-  document.body.style.backgroundColor = "rgb(229, 169, 54)";
+  document.body.style.backgroundColor = "rgb(209, 142, 17)";
   for (let span of spans) {
-    span.style.display = "none";
+    // span.style.display = "none";
   }
 }
 
